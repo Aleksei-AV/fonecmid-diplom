@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d47b2c8-2aad-4013-80e7-5aec9cc7ccac">
+  <producedTypes>
+    <refType typeId="e981373e-f6d7-4e41-ae29-189020ae4fb2" valueTypeId="511e1f28-2c34-4040-be60-49c2b2cfd71a"/>
+    <listType typeId="e450a08e-0a1a-4ffd-b401-8a65e65ce086" valueTypeId="fdf286f0-027d-4dee-b5b5-ef496b04d539"/>
+    <managerType typeId="09a60794-4801-4745-818f-dee6280c42da" valueTypeId="b738bb15-21a5-4128-84f4-f3667f7c2306"/>
+  </producedTypes>
+  <name>ВКМ_ВидыДоговоровКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды договоров контрагентов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6d504b89-23d8-4bd1-92d1-7f5ecb8f279a">
+    <name>ВКМ_АбонентскоеОбслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонентское обслуживание</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
