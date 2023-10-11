@@ -153,16 +153,34 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="37931d0f-2ed7-4b26-9063-89fb376f922e">
-    <name>ВКМ_ПериодДействияДоговора</name>
+    <name>ВКМ_ДатаНачалаДействияДоговора</name>
     <synonym>
       <key>ru</key>
-      <value>Период действия договора</value>
+      <value>Дата начала действия договора</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>15</length>
-      </stringQualifiers>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5274b415-40c7-4b79-bc2f-04a1c18bd422">
+    <name>ВКМ_ДатаОкончанияДействияДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания действия договора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
