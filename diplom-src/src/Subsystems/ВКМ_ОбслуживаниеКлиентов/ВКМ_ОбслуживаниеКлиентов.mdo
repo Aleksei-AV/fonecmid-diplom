@@ -12,4 +12,6 @@
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>DataProcessor.ТестоваяРаботаСТелегой</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
 </mdclass:Subsystem>
