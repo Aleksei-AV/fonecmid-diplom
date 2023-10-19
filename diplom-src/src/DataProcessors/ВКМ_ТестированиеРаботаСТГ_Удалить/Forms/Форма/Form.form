@@ -103,7 +103,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ТестоваяРаботаСТелегой</types>
+      <types>DataProcessorObject.ВКМ_ТестированиеРаботаСТГ_Удалить</types>
     </valueType>
     <view>
       <common>true</common>

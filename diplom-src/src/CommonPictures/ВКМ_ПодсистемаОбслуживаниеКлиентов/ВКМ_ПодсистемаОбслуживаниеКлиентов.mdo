@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3d09f3f-7f43-4d10-8607-66a9cecac16b">
+  <name>ВКМ_ПодсистемаОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ подсистема обслуживание клиентов</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -100,6 +100,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ВКМ_УведомленияТелеграмБоту.Form.ФормаСписка</defaultListForm>
   <attributes uuid="a7dbad95-267a-4c6a-9db3-4b82a69bc481">
     <name>Текст</name>
     <synonym>
@@ -118,4 +119,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="e6c99d38-29ed-4544-b1ca-1c9282663d6d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

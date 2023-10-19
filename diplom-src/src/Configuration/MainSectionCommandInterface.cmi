@@ -32,6 +32,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Catalog.Контрагенты.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -61,6 +67,7 @@
       <commands>Document.ПоступлениеТоваровУслуг.StandardCommand.OpenList</commands>
       <commands>Document.ОплатаПоставщику.StandardCommand.OpenList</commands>
       <commands>Document.ОплатаОтПокупателя.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
@@ -83,6 +90,7 @@
       <commands>Document.ПоступлениеТоваровУслуг.StandardCommand.OpenList</commands>
       <commands>Document.ОплатаПоставщику.StandardCommand.OpenList</commands>
       <commands>Document.ОплатаОтПокупателя.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>

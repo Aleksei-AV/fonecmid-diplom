@@ -4,13 +4,13 @@
     <objectType typeId="5447883a-0f20-401f-a347-72144a589504" valueTypeId="ba342ee1-24a8-4ed5-a09d-04b71e755a6a"/>
     <managerType typeId="4097acd2-4d6d-4426-b9c2-a64ffa5a25f8" valueTypeId="09c5df16-c5bb-48d8-bce7-efebb5d2e053"/>
   </producedTypes>
-  <name>ТестоваяРаботаСТелегой</name>
+  <name>ВКМ_ТестированиеРаботаСТГ_Удалить</name>
   <synonym>
     <key>ru</key>
-    <value>Тестовая работа с телегой</value>
+    <value>ВКМ тестирование работа с ТГ удалить</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.ТестоваяРаботаСТелегой.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.ВКМ_ТестированиеРаботаСТГ_Удалить.Form.Форма</defaultForm>
   <forms uuid="a04efb6d-7737-4080-b664-be9b22a1eb8e">
     <name>Форма</name>
     <synonym>
