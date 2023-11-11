@@ -26,6 +26,9 @@
   <defaultObjectForm>Document.ВКМ_ОбслуживаниеКлиента.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ВКМ_ОбслуживаниеКлиента.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="2089e522-e8f0-45df-8c6d-3a2aec17a8dc">
@@ -95,7 +98,9 @@
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers/>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <format>
       <key>ru</key>
@@ -121,7 +126,9 @@
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers/>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
     </type>
     <format>
       <key>ru</key>
@@ -147,7 +154,9 @@
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers/>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
     </type>
     <format>
       <key>ru</key>
