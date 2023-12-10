@@ -92,6 +92,9 @@
       <type>PictureField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>CommonPicture.Скрепка</picture>
+      </headerPicture>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:ImageFieldExtInfo">

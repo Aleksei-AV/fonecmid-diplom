@@ -1232,7 +1232,6 @@
   <dataProcessors>DataProcessor.Сканирование</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
-  <dataProcessors>DataProcessor.ВКМ_ТестированиеРаботаСТГ_Удалить</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_Календарь</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_МассовоеСозданиеАктов</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
