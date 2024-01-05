@@ -3,12 +3,12 @@
   <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
-    <value>Обслуживание клиентов</value>
+    <value>Работа с заявками клиентов</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.ВКМ_ПодсистемаОбслуживаниеКлиентов</picture>
+    <picture>StdPicture.Notifications</picture>
   </picture>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
