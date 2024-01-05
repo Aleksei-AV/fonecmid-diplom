@@ -10,12 +10,26 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Сумма</picture>
   </picture>
-  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
-  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
-  <content>CalculationRegister.ВКМ_Удержания</content>
-  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
-  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>Catalog.ВКМ_ГрафикиРаботы</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
+  <content>Catalog.ВКМ_Подразделения</content>
+  <content>Catalog.ВКМ_ФизическиеЛица</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Document.ВКМ_НачислениеЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.ВКМ_УведомленияКлиентов</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>AccumulationRegister.ВКМ_ВыставленныеКОплатеРаботы</content>
+  <content>AccumulationRegister.ВКМ_ДниОтпуска</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
 </mdclass:Subsystem>

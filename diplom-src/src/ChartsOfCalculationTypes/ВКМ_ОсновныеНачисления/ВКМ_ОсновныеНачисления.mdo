@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ChartOfCalculationTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e842da37-b8b6-4693-9789-b906a983fb98">
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12ef3950-9c57-473b-8268-63af3569909a">
   <producedTypes>
-    <objectType typeId="a447aa91-4f5c-40dd-8f1b-ce12b0722e47" valueTypeId="f72e566b-455e-4280-b8d4-b09a65281491"/>
-    <refType typeId="78aa5f28-3202-4575-9117-a85edd4fc5e0" valueTypeId="ef62b3b0-c77d-4169-9df6-9772b0f9fa40"/>
-    <selectionType typeId="b978ad3c-cdda-461d-afc9-c65df9cffdd4" valueTypeId="6997ca1f-33ac-4d98-b70d-843aa59c4733"/>
-    <listType typeId="3ec99a60-70a6-4975-9970-3ab0475c3915" valueTypeId="cbe7a7d7-09ba-4a4c-a3de-3006f5d11559"/>
-    <managerType typeId="50c41e61-881f-422b-88b7-a7054c3d0acd" valueTypeId="4dd3ea11-e1b1-45f7-98b4-d37fff1b859d"/>
-    <displacingCalculationTypesType typeId="70857b46-4e62-4eb2-ba59-f3956bf738ba" valueTypeId="7dd38bfe-5695-4cad-b17c-de1c6bf8f976"/>
-    <displacingCalculationTypesRowType typeId="d05be53f-14bf-46b0-92b5-cb44c1f3b2e6" valueTypeId="46f63122-b13e-4521-81cc-073b6c4eba57"/>
-    <baseCalculationTypesType typeId="611cba6b-e8b7-449c-bf59-bdc1a118a1e8" valueTypeId="e9d25e03-90f0-40fa-bcb0-82b4d4584bb5"/>
-    <baseCalculationTypesRowType typeId="0a5e431d-1e67-429b-aa54-293fe3a3a9cc" valueTypeId="86acc629-67ea-45e1-88e3-2e8db1ef3fbe"/>
-    <leadingCalculationTypesType typeId="0c11d84a-bc08-4140-bec8-e3c14ffb256b" valueTypeId="07706934-24f0-42da-bc85-588387ef4edb"/>
-    <leadingCalculationTypesRowType typeId="811b6381-f5b8-437a-9172-0c75baa3ef2b" valueTypeId="1ecfe104-d711-4732-983d-8d7cb3538a96"/>
+    <objectType typeId="0a4476dd-b5ce-4d7d-8fe1-c45f95797204" valueTypeId="2d044040-8a5e-435c-8a94-53f042e35945"/>
+    <refType typeId="6c7b1f07-835c-4537-9819-a57b753abe32" valueTypeId="965e181f-8cef-4f12-a955-348c9e0bdf70"/>
+    <selectionType typeId="730dd738-b21c-46c8-88a0-00171bd8ae56" valueTypeId="de919f80-09a4-48dc-bc33-fffda894f31e"/>
+    <listType typeId="9110d972-b21d-408d-ad8a-b56a6e638ef0" valueTypeId="19ec324a-b540-4924-8b07-79f8eafb0d48"/>
+    <managerType typeId="b0630a08-9b48-4c12-b881-0e623ca58d98" valueTypeId="7704e6c5-c8ce-49b6-b8a1-d350ee6c5d15"/>
+    <displacingCalculationTypesType typeId="95158abc-316d-48c0-bab9-aa3eb4af5e7f" valueTypeId="b4846b6f-3bf1-4619-a38e-ae2edf32bf8e"/>
+    <displacingCalculationTypesRowType typeId="34ae9b9b-33aa-46ab-afa4-52a788ef52cb" valueTypeId="f77c9258-558f-4407-93a6-0d264ec7399e"/>
+    <baseCalculationTypesType typeId="2a979b8a-dbbe-4013-9323-a5e175250066" valueTypeId="27c50077-68b4-4ce7-9ab2-2acc59e54441"/>
+    <baseCalculationTypesRowType typeId="960d4f98-87bd-4e9c-82a8-40f17476b614" valueTypeId="8e11c1f3-6b5f-4ac9-9221-1ba2f1339df8"/>
+    <leadingCalculationTypesType typeId="fd64de5b-6151-49f2-aaeb-6c00e76acbc7" valueTypeId="0581770d-38d3-4780-852c-4480a857b3ea"/>
+    <leadingCalculationTypesRowType typeId="5f38ed51-5f64-4db5-b7b4-3c65c75ce45d" valueTypeId="9c51583d-b9ad-4f38-9fcb-2fe4d9da089b"/>
   </producedTypes>
   <name>ВКМ_ОсновныеНачисления</name>
   <synonym>
@@ -19,9 +19,66 @@
     <value>Основные начисления</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardAttribute.Description</inputByString>
   <inputByString>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ActionPeriodIsBasic</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -32,4 +89,122 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
+  <standardTabularSections>
+    <name>BaseCalculationTypes</name>
+    <synonym>
+      <key></key>
+      <value>Базовые виды расчета</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>Predefined</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>CalculationType</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </standardTabularSections>
+  <standardTabularSections>
+    <name>LeadingCalculationTypes</name>
+    <synonym>
+      <key></key>
+      <value>Ведущие виды расчета</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>Predefined</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>CalculationType</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </standardTabularSections>
+  <standardTabularSections>
+    <name>DisplacingCalculationTypes</name>
+    <synonym>
+      <key></key>
+      <value>Вытесняющие виды расчета</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>Predefined</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>CalculationType</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </standardTabularSections>
+  <predefined>
+    <items id="d9642876-d20a-4bad-a4e5-327554befccf">
+      <name>Оклад</name>
+      <description>Оклад</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</displaced>
+    </items>
+    <items id="0c4b3f13-2104-4901-bc65-df363b0b596c">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
+    </items>
+  </predefined>
 </mdclass:ChartOfCalculationTypes>

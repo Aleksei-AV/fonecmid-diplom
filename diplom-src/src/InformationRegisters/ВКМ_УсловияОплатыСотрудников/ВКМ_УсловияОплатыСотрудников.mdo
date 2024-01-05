@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8625febb-e6a5-4883-8ab2-5a547d81473f">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a063763-7dd0-4389-8bef-996e1f88281b">
   <producedTypes>
-    <selectionType typeId="100e4f7e-8207-4884-a222-b0df6b9e361e" valueTypeId="121091ed-c207-418b-a5a7-850ecb5dce8b"/>
-    <listType typeId="9ec213bf-f591-485c-9fab-90129c5d9c25" valueTypeId="503c85c0-30e8-487b-b58e-9301ae1aa0b2"/>
-    <managerType typeId="9f6b3bbc-6590-4980-b510-079d9a0a7d35" valueTypeId="1c572056-e291-4ad3-bdfa-31a84eac58b7"/>
-    <recordSetType typeId="2af7832c-4f5c-460e-90c6-e89b4813f2ab" valueTypeId="f5afd65b-d17e-441b-895f-cc0b638b0e82"/>
-    <recordKeyType typeId="afc8ddf7-a596-434d-8a7b-5556868ef936" valueTypeId="d997fecb-c651-42d4-9721-fb9d3158bc50"/>
-    <recordType typeId="f0318c90-f1b0-4d41-9f99-4cb98b86c9ca" valueTypeId="ca707083-2d07-43ec-a182-19f6ba07266e"/>
-    <recordManagerType typeId="50920b7f-63d6-4651-9788-c5de3c91b688" valueTypeId="facd4fb6-137f-444d-8215-3ff0d497cfa4"/>
+    <selectionType typeId="1e1700e4-fa99-4870-a9cd-7656e457b9f9" valueTypeId="58074ba8-0caf-4749-892a-73a6d153ccb2"/>
+    <listType typeId="4fe0f2ea-e93f-4389-a0e1-d86913c5aa06" valueTypeId="0ffb9e38-a955-4f6a-ad55-b075eccfbc4b"/>
+    <managerType typeId="be26aa67-37cf-4eba-abd7-029b0dc4a5a7" valueTypeId="93a58528-c820-4faf-9713-361b6cfc5e9e"/>
+    <recordSetType typeId="415bacb4-10da-487d-91a4-f4d42e939e73" valueTypeId="bd327ce3-f34c-4edc-8758-2dc0811fc7b9"/>
+    <recordKeyType typeId="6d6fa7be-49da-46bf-bb1c-f7fb26f78670" valueTypeId="a6c44b02-5326-4000-a3ce-ac0a8e61844a"/>
+    <recordType typeId="7aca5912-37a1-4505-82cb-1ceb8fd45e38" valueTypeId="598502e0-272d-463c-95d6-3d6a997537b0"/>
+    <recordManagerType typeId="a4fe6e69-83d5-4dc4-83cb-b215fa8e5f94" valueTypeId="e959af05-906a-4e7f-8c03-36eae772c628"/>
   </producedTypes>
   <name>ВКМ_УсловияОплатыСотрудников</name>
   <synonym>
@@ -16,10 +16,42 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
-  <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="88689092-66af-479b-b4aa-8eea86b2027c">
+  <resources uuid="bdbc44b3-fd5a-4f41-945f-695337f6501e">
     <name>Оклад</name>
     <synonym>
       <key>ru</key>
@@ -28,7 +60,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>15</precision>
+        <precision>10</precision>
         <scale>2</scale>
       </numberQualifiers>
     </type>
@@ -38,7 +70,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="8b2fd57e-eabd-426d-993d-fda2b9eb297c">
+  <resources uuid="36b27b31-bda2-4b9c-a754-fbbcd250dfc8">
     <name>ПроцентОтРабот</name>
     <synonym>
       <key>ru</key>
@@ -47,8 +79,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
+        <precision>3</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -57,27 +88,36 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="6b301d8d-e33a-4f17-9891-ef93901091c7">
+  <dimensions uuid="79d10174-16ec-4a35-bf89-98e20d0c6a0d">
     <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудник</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВнешниеПользователи</types>
-      <types>String</types>
-      <types>CatalogRef.Пользователи</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d3c7805e-5af6-49a5-967d-82b6986cf462">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

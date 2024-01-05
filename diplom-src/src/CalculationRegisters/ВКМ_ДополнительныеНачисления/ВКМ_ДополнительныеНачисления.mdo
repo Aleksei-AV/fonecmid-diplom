@@ -1,21 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CalculationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fde39a86-3a84-45c4-a4c9-4f95fb0cc78e">
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03683fa6-a34d-42fa-b6ec-23a4d68c5219">
   <producedTypes>
-    <selectionType typeId="62406351-5033-4f96-9d71-c6a41b8bede9" valueTypeId="b60c9c3f-ff2b-4c25-94d7-f49e6930210a"/>
-    <listType typeId="cc938ab0-14fc-47e3-b784-1b3614aec5a3" valueTypeId="29170a66-8e26-4905-89eb-a651ce440158"/>
-    <managerType typeId="b1fc16a6-3468-4e6a-a72a-3a4eab9811af" valueTypeId="f75969cd-fa2b-41dc-b35f-bd56384330cc"/>
-    <recordSetType typeId="9c2092d1-053f-4ab1-ad84-e15667764a10" valueTypeId="024c1247-391d-4d9e-8d54-e2b60a4c4aab"/>
-    <recordKeyType typeId="7e629d15-4cee-4752-b5b1-dd95c6e8532a" valueTypeId="b9c832b2-e2e4-4b10-8e3e-ad301c06b4fb"/>
-    <recordType typeId="d1a12578-6819-4bed-9bd3-9d968763115f" valueTypeId="9bed5a93-a780-404b-96fe-40f997171eca"/>
-    <recalcsType typeId="a8207222-4ff5-4c41-8135-63f12638a4a6" valueTypeId="c2ef983f-d3ea-48d3-bfdc-a2d9615aa3df"/>
+    <selectionType typeId="0484cb75-8572-4165-86ac-8d459ba5819b" valueTypeId="c0b8d626-f56b-4b36-8af0-0a43aa866615"/>
+    <listType typeId="997d630b-2e7a-43b7-a596-6312ba23c6bc" valueTypeId="0c63d3d0-f8c8-4886-84dd-f3954d8900b8"/>
+    <managerType typeId="fc2d71b6-68bf-4a69-8307-c1ab8aa45c2b" valueTypeId="e4f66a8a-3630-490b-bc4b-300080c3db93"/>
+    <recordSetType typeId="7d5f1cee-4109-4c64-b234-c484c221ce94" valueTypeId="3b94c589-3c46-4a2b-a725-e5d45ac7178b"/>
+    <recordKeyType typeId="aecf3c0f-af15-453c-b74d-28b3b6bff902" valueTypeId="4dd6ac44-d1f5-4124-bb9b-62269d93e126"/>
+    <recordType typeId="e806e351-a731-4251-bd49-f4d488fe752f" valueTypeId="99c3072f-7ca9-4248-ad6a-9b3e3bc82166"/>
+    <recalcsType typeId="0a4551de-00b8-49f9-8e87-61ed2b0f50aa" valueTypeId="ff395b86-3345-4500-bdff-9a491a6857bc"/>
   </producedTypes>
   <name>ВКМ_ДополнительныеНачисления</name>
   <synonym>
     <key>ru</key>
-    <value>Дополнительные начисления</value>
+    <value>ДополнительныеНачисления</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <periodicity>Month</periodicity>
+  <basePeriod>true</basePeriod>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartOfCalculationTypes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RegistrationPeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReversingEntry</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>EndOfBasePeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>BegOfBasePeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>EndOfActionPeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>BegOfActionPeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ActionPeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>CalculationType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2ff788d2-b547-475b-9ba7-7e85a5a8c04f">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="89459c0a-9f12-40b6-8259-6449518ad7dd">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b0547078-43cc-4896-94d6-ff2cc071ca6a">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="ef6bfd0f-492e-474f-ae83-216bb54d5c3a">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
 </mdclass:CalculationRegister>

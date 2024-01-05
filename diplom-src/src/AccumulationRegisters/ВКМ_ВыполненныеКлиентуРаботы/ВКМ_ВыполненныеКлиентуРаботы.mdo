@@ -11,7 +11,7 @@
   <name>ВКМ_ВыполненныеКлиентуРаботы</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ выполненные клиенту работы</value>
+    <value>Выполненные клиенту работы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -26,7 +26,6 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>15</precision>
-        <scale>2</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -42,7 +41,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>15</precision>
+        <precision>10</precision>
         <scale>2</scale>
       </numberQualifiers>
     </type>
@@ -57,10 +56,7 @@
       <value>Клиент</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.Контрагенты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -74,10 +70,7 @@
       <value>Договор</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
