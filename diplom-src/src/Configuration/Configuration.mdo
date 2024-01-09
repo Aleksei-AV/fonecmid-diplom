@@ -49,12 +49,12 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.ВКМ_РаботаСЗаявкамиКлиентов</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.Деньги</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.ВКМ_РаботаСЗаявкамиКлиентов</subsystems>
   <subsystems>Subsystem.ВКМ_РасчётУправленческойЗарплаты</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
@@ -1213,6 +1213,10 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.ВКМ_ВыработкаСпециалистов</reports>
+  <reports>Report.ВКМ_РасчетыССотрудниками</reports>
+  <reports>Report.ВКМ_РасходЗапланированныхОтпусков</reports>
+  <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
