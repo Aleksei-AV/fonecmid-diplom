@@ -584,6 +584,7 @@
   <roles>Role.ВКМ_ДобавлениеИзменениеВыплатыЗарплаты</roles>
   <roles>Role.ВКМ_ИспользованиеОбработкиМассовоеСозданиеАктов</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеНачисленияЗарплаты</roles>
+  <roles>Role.ВКМ_ИспользованиеОбработкиКалендарь</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
