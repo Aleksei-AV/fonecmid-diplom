@@ -190,6 +190,10 @@
   </attributes>
   <attributes uuid="5d94aa3f-a3d1-46ec-8896-99b77e6c064a">
     <name>ВКМ_СуммаАбонентскойПлаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма абонентской платы</value>
+    </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
