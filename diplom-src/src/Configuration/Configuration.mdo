@@ -54,8 +54,7 @@
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
-  <subsystems>Subsystem.ВКМ_РаботаСЗаявкамиКлиентов</subsystems>
-  <subsystems>Subsystem.ВКМ_РасчётУправленческойЗарплаты</subsystems>
+  <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
@@ -586,8 +585,7 @@
   <roles>Role.ВКМ_ДобавлениеИзменениеНачисленияЗарплаты</roles>
   <roles>Role.ВКМ_ИспользованиеОбработкиКалендарь</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеОбслуживаниеКлиента</roles>
-  <roles>Role.ВКМ_ПодсистемаРаботаСЗаявками</roles>
-  <roles>Role.ВКМ_ПодсистемаРасчетУправленческойЗарплаты</roles>
+  <roles>Role.ВКМ_ПодсистемаДобавленныеОбъекты</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>

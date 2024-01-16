@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f91bb1c-5f84-4dee-9316-b3c783a90a0b">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f484b05-01bf-457a-a9a9-6b9cd4714663">
   <name>ВКМ_РасчётУправленческойЗарплаты</name>
   <synonym>
     <key>ru</key>
@@ -7,23 +7,20 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.Сумма</picture>
-  </picture>
-  <content>Catalog.ВКМ_ГрафикиРаботы</content>
-  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
-  <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
-  <content>Catalog.ВКМ_Подразделения</content>
-  <content>Catalog.ВКМ_ФизическиеЛица</content>
-  <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Document.ВКМ_НачислениеЗарплаты</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
   <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
   <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
   <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
-  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>InformationRegister.ВКМ_ГрафикиОтпусков</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>AccumulationRegister.ВКМ_ВыставленныеКОплатеРаботы</content>
@@ -31,9 +28,8 @@
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
   <content>CalculationRegister.ВКМ_Удержания</content>
-  <content>InformationRegister.ВКМ_ГрафикиОтпусков</content>
-  <content>Report.ВКМ_ВыработкаСпециалистов</content>
-  <content>Report.ВКМ_РасчетыССотрудниками</content>
-  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
-  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Catalog.ВКМ_ФизическиеЛица</content>
+  <content>Catalog.ВКМ_Подразделения</content>
+  <content>Catalog.ВКМ_ГрафикиРаботы</content>
+  <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>
