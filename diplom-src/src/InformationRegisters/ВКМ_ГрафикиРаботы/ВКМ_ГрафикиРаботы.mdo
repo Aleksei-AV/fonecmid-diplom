@@ -50,6 +50,10 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </listPresentation>
   <resources uuid="d2807ee8-c833-4b5c-89c7-5a32385d45fd">
     <name>Значение</name>
     <synonym>

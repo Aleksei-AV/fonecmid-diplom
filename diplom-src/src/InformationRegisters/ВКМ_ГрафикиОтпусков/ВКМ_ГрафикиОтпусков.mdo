@@ -49,30 +49,29 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="bcea5221-5945-4ef6-afd8-00fcad75c473">
-    <name>Значение</name>
+  <dimensions uuid="285dcad1-e418-4186-99a2-3db6740c891f">
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
-      <value>Значение</value>
+      <value>Сотрудник</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-      </numberQualifiers>
+      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
+    <mainFilter>true</mainFilter>
+  </dimensions>
   <dimensions uuid="7fdbfcc6-4f43-44a1-a418-c81544cbd1d3">
-    <name>Дата</name>
+    <name>ДатаНачала</name>
     <synonym>
       <key>ru</key>
-      <value>Дата</value>
+      <value>Дата начала</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -87,15 +86,45 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="285dcad1-e418-4186-99a2-3db6740c891f">
-    <name>Сотрудник</name>
+  <dimensions uuid="82aa5cec-b10a-4f1d-8360-31fa1a4a90d1">
+    <name>ДатаОкончания</name>
     <synonym>
       <key>ru</key>
-      <value>Сотрудник</value>
+      <value>Дата окончания</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a4a4e4e9-4184-45bb-b219-382e682fd802">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

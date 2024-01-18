@@ -8,6 +8,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Catalog.ДоговорыКонтрагентов.StandardCommand.Create</command>
       <visible>
         <common>true</common>
@@ -31,6 +37,7 @@
       <group>NavigationPanelOrdinary</group>
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
       <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>

@@ -136,7 +136,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ВКМ_ГрафикиОтпусков.Dimension.Дата</name>
+		<name>InformationRegister.ВКМ_ГрафикиОтпусков.Dimension.ДатаНачала</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -148,17 +148,6 @@
 	</object>
 	<object>
 		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.Dimension.Сотрудник</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ВКМ_ГрафикиОтпусков.Resource.Значение</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -199,17 +188,6 @@
 		<name>Report.ВКМ_РасходЗапланированныхОтпусков</name>
 		<right>
 			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>AccumulationRegister.ВКМ_ДниОтпуска</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>

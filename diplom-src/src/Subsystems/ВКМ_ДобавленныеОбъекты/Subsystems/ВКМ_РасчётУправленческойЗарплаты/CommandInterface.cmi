@@ -68,7 +68,7 @@
       <commands>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ВКМ_ВыставленныеКОплатеРаботы.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.ВКМ_ДниОтпуска.StandardCommand.OpenList</commands>
+      <commands>0:f49f678d-2423-4d5c-862a-8cabfc875910</commands>
       <commands>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.ВКМ_Удержания.StandardCommand.OpenList</commands>

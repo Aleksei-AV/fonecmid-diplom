@@ -57,6 +57,10 @@
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Выполненные сотрудниками работы</value>
+  </listPresentation>
   <resources uuid="13a11ac6-cb2e-4229-ad32-fa08bc93325a">
     <name>ЧасовКОплате</name>
     <synonym>
