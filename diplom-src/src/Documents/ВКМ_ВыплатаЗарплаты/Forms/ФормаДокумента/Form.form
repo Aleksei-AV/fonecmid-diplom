@@ -437,15 +437,19 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
-      <name>ФормаЗАПОЛНИТЬ</name>
+      <name>Заполнить</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Заполнить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗАПОЛНИТЬРасширеннаяПодсказка</name>
+        <name>ЗаполнитьРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>

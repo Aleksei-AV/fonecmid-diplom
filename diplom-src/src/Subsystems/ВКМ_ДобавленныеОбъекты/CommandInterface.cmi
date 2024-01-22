@@ -40,7 +40,7 @@
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
-      <group>acced8f6-6cca-489b-ab1c-70ed55d9b386</group>
+      <group>NavigationPanelOrdinary</group>
       <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
@@ -51,7 +51,7 @@
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
-      <group>acced8f6-6cca-489b-ab1c-70ed55d9b386</group>
+      <group>NavigationPanelOrdinary</group>
       <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>

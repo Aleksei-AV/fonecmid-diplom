@@ -12,7 +12,6 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e618f860-9c1f-4ff5-adcc-937bf38eb0a0"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="211b6552-4b93-4f1e-b683-6067088de2c6"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2e547306-50f7-463f-abdf-bbc50733c076"/>
-  <configurationExtensionCompatibilityMode>8.3.22</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -574,6 +573,7 @@
   <roles>Role.ЧтениеДополнительныхСведений</roles>
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
+  <roles>Role.ВКМ_ПодсистемаДобавленныеОбъекты</roles>
   <roles>Role.ВКМ_РаботаСОтчетомАнализВыставленныхАктов</roles>
   <roles>Role.ВКМ_РаботаСОтчетомРасчетыССотрудниками</roles>
   <roles>Role.ВКМ_РаботаСОтчетомВыработкаСпециалистов</roles>
@@ -585,7 +585,6 @@
   <roles>Role.ВКМ_ДобавлениеИзменениеНачисленияЗарплаты</roles>
   <roles>Role.ВКМ_ИспользованиеОбработкиКалендарь</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеОбслуживаниеКлиента</roles>
-  <roles>Role.ВКМ_ПодсистемаДобавленныеОбъекты</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
@@ -1166,10 +1165,10 @@
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.ВКМ_ОбслуживаниеКлиента</documents>
-  <documents>Document.ВКМ_ВыплатаЗарплаты</documents>
-  <documents>Document.ВКМ_ГрафикОтпусков</documents>
   <documents>Document.ВКМ_НачислениеЗарплаты</documents>
   <documents>Document.ВКМ_НачислениеФиксированнойПремии</documents>
+  <documents>Document.ВКМ_ВыплатаЗарплаты</documents>
+  <documents>Document.ВКМ_ГрафикОтпусков</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыПериода</enums>
