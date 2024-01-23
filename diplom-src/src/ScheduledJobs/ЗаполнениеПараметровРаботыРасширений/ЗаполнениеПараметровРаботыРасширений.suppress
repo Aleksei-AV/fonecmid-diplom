@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" fqn="ScheduledJob.ЗаполнениеПараметровРаботыРасширений">
+  <suppressions key="com.e1c.v8codestyle.md:scheduled-job-periodicity-too-short" value="true"/>
+</suppress:SuppressGenericObject>
