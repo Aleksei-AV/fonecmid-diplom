@@ -21,21 +21,15 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.ВКМ_ФизическиеЛица.StandardCommand.Create</command>
